@@ -9,7 +9,7 @@ int main()
 
     vector<string> numWords={"one", "two", "three", "four", "five", "six", "sevem", "eight", "nine"}
     if (n>=1 && n<=9) {
-        cout << words[n-1];
+        cout << numWords[n-1];
     }
     else {
         cout << "Greater than 9";
